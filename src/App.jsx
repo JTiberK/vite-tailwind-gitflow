@@ -9,7 +9,6 @@ import 'tailwindcss/tailwind.css';
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-100">
-
       {/* Sección del encabezado **POR SECCIÓN DE PRUEBA DE CONFLICTO***/}
       <header className="bg-blue-500 p-4 text-white">
         <nav>
@@ -37,6 +36,15 @@ export default function App() {
           Elemento 4
         </div>
       </div>
+
+      {/* Sección del footer */}
+      <footer className="bg-gray-800 p-4 text-white mt-8">
+        <p>© 2023 Mi Aplicación</p>
+        <div>
+          <a href="https://twitter.com">Twitter</a>
+          <a href="https://facebook.com">Facebook</a>
+        </div>
+      </footer>
     </div>
   );
 }
