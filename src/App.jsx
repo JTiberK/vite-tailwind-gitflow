@@ -9,6 +9,18 @@ import 'tailwindcss/tailwind.css';
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-100">
+
+      {/* Sección del encabezado **POR SECCIÓN DE PRUEBA DE CONFLICTO***/}
+      <header className="bg-blue-500 p-4 text-white">
+        <nav>
+          <ul className="flex space-x-4">
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </header>
+
       {/* Sección del botón */}
       <div className="flex justify-center items-center p-4">
         <button className="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-600">
