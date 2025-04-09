@@ -23,7 +23,7 @@ export default function App() {
       {/* Sección del botón */}
       <div className="flex justify-center items-center p-4">
         <button className="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-600">
-          ¡Soy un botón bonito!
+          ¡Soy un botón Roto!
         </button>
       </div>
 
