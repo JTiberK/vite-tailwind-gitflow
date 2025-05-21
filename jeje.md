@@ -1,7 +1,4 @@
-### USER
-Guiame en los pasos a seguir con este proyecto:
-
-Sección 1: Configuración Inicial del Proyecto
+### Sección 1: Configuración Inicial del Proyecto
 Objetivo: Crear un proyecto React con Vite y configurar la estructura base.
 
 Inicialización con Vite
